@@ -1,3 +1,5 @@
+![Eventeer Logo](Documents/Eventeer Logo.png)
+
 # Eventeer: Connecting Volunteers with Impactful Causes
 
 ## 📌 Table of Contents
