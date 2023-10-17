@@ -1,4 +1,4 @@
-![Eventeer Logo](Documents/Eventeer Logo.png)
+![Eventeer Logo](https://github.com/M-Alharbi/Eventeer/blob/main/Documents/Eventeer%20Logo.png)
 
 # Eventeer: Connecting Volunteers with Impactful Causes
 
