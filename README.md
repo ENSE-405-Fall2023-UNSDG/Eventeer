@@ -1,6 +1,8 @@
 <p align="center">
   <img src="https://github.com/M-Alharbi/Eventeer/blob/main/Documents/Eventeer%20Logo.png" alt="Eventeer Logo" width="200"/> <!-- Adjust the width value as needed -->
 </p>
+
+
 # Eventeer: Connecting Volunteers with Impactful Causes
 
 ## 📌 Table of Contents
