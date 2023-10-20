@@ -16,20 +16,20 @@
 
 - [License](#license)
 
-🌐 **Background**
+## 🌐 Background
 Eventeer, refocused on student events, aims to bridge the gap between students eager to participate in events and institutions or organizations hosting them. This platform serves as a hub for students to discover, join, and contribute to events that align with their interests and skills.
 
-💼 **Business Need/Opportunity**
+## 💼 Business Need/Opportunity
 There's a growing demand for a centralized platform where students can find events tailored to their interests, and where institutions can reach the right audience. Eventeer addresses this by offering a space where students can view event details, register, and even earn recognition through event badges.
 
-🌿 **Sustainable Development Goals (SDGs)**
+## 🌿 Sustainable Development Goals (SDGs)
 Eventeer's new direction contributes to several SDGs:
 
 - **SDG 4: Quality Education:** Eventeer enhances the quality of education by facilitating student events that promote learning, skill development, and knowledge exchange outside traditional classroom settings.
   
 - **SDG 10: Reduced Inequalities:** Eventeer ensures that all students, irrespective of their background, have equal opportunities to participate in and organize events, thereby contributing to reducing inequalities within the educational community.
 
-🚀 **Minimum Viable Products (MVPs)**
+## 🚀 Minimum Viable Products (MVPs)
 - **Student Profile Creation:** Allows students to create profiles, showcasing their interests and past event participations.
 - **Event Listing:** Institutions can list their events, providing all necessary details.
 - **Event Badges:** A feature where students earn badges for their participation, adding a gamified element and recognition.
