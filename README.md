@@ -23,6 +23,9 @@ Eventeer, refocused on student events, aims to bridge the gap between students e
 There's a growing demand for a centralized platform where students can find events tailored to their interests, and where institutions can reach the right audience. Eventeer addresses this by offering a space where students can view event details, register, and even earn recognition through event badges.
 
 ## 🌿 Sustainable Development Goals (SDGs)
+<p align="center">
+  <img src="https://github.com/M-Alharbi/Eventeer/blob/main/Images/SDGs.gif" width="450" alt="SDGs GIF">
+</p>
 Eventeer's new direction contributes to several SDGs:
 
 - **SDG 4: Quality Education:** Eventeer enhances the quality of education by facilitating student events that promote learning, skill development, and knowledge exchange outside traditional classroom settings.
