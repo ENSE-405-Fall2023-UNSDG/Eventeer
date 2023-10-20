@@ -6,15 +6,15 @@
 # Eventeer: Student Event Platform
 
 ## 📌 Table of Contents
-- [Background](#background)
+- [Background](#-background)
 
-- [Business Need/Opportunity](#business-needopportunity)
+- [Business Need/Opportunity](#-business-needopportunity)
 
-- [Sustainable Development Goals (SDGs)](#sustainable-development-goals-sdgs)
+- [Sustainable Development Goals (SDGs)](#-sustainable-development-goals-sdgs)
 
-- [Minimum Viable Products (MVPs)](#minimum-viable-products-mvps)
+- [Minimum Viable Products (MVPs)](#-minimum-viable-products-mvps)
 
-- [License](#license)
+- [License](#-license)
 
 ## 🌐Background
 Eventeer, refocused on student events, aims to bridge the gap between students eager to participate in events and institutions or organizations hosting them. This platform serves as a hub for students to discover, join, and contribute to events that align with their interests and skills.
