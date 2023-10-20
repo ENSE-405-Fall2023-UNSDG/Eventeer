@@ -16,7 +16,7 @@
 
 - [License](#license)
 
-## 🌐 Background
+## 🌐Background
 Eventeer, refocused on student events, aims to bridge the gap between students eager to participate in events and institutions or organizations hosting them. This platform serves as a hub for students to discover, join, and contribute to events that align with their interests and skills.
 
 ## 💼 Business Need/Opportunity
