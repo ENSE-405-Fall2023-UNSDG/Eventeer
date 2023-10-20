@@ -16,25 +16,23 @@
 
 - [License](#license)
 
-## 🌐 Background
-Eventeer emerges as a solution to seamlessly connect volunteers and organizations amidst prevalent discovery and management challenges. The platform is designed to bridge the gap between spirited individuals and meaningful causes, amplifying the impact of their collective efforts.
+🌐 **Background**
+Eventeer, refocused on student events, aims to bridge the gap between students eager to participate in events and institutions or organizations hosting them. This platform serves as a hub for students to discover, join, and contribute to events that align with their interests and skills.
 
-## 💼 Business Need/Opportunity
-There's a noticeable disconnect between eager volunteers and organizations that require their skills and enthusiasm. Organizations often face challenges in finding, managing, and retaining volunteers. Eventeer addresses this gap by providing a unified platform where volunteers can showcase their skills and availability, and organizations can list their volunteering opportunities.
+💼 **Business Need/Opportunity**
+There's a growing demand for a centralized platform where students can find events tailored to their interests, and where institutions can reach the right audience. Eventeer addresses this by offering a space where students can view event details, register, and even earn recognition through event badges.
 
-## 🌿 Sustainable Development Goals (SDGs)
-Eventeer contributes to several SDGs, including:
-- **SDG 3: Good Health and Well-being:** Promoting volunteering events related to health and wellness.
-- **SDG 10: Reduced Inequality:** Offering equal opportunities for all volunteers and supporting events that aim to reduce inequalities.
-- **SDG 11: Sustainable Cities and Communities:** Supporting events focused on sustainable community initiatives.
-- **SDG 13: Climate Action:** Facilitating events related to climate awareness and environmental sustainability.
+🌿 **Sustainable Development Goals (SDGs)**
+Eventeer's new direction contributes to several SDGs:
 
-## 🚀 Minimum Viable Products (MVPs)
-1. **Volunteer Profile Creation:** A feature allowing volunteers to create detailed profiles.
-2. **Organization Event Listing:** A platform section for organizations to list and manage their volunteering opportunities.
-3. **Skill-specific Certifications:** A system to issue certifications to volunteers based on their contributions.
+- **SDG 4: Quality Education:** Eventeer enhances the quality of education by facilitating student events that promote learning, skill development, and knowledge exchange outside traditional classroom settings.
+  
+- **SDG 10: Reduced Inequalities:** Eventeer ensures that all students, irrespective of their background, have equal opportunities to participate in and organize events, thereby contributing to reducing inequalities within the educational community.
 
-
+🚀 **Minimum Viable Products (MVPs)**
+- **Student Profile Creation:** Allows students to create profiles, showcasing their interests and past event participations.
+- **Event Listing:** Institutions can list their events, providing all necessary details.
+- **Event Badges:** A feature where students earn badges for their participation, adding a gamified element and recognition.
 
 
 ## 📜 License
