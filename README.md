@@ -3,7 +3,7 @@
 </p>
 
 
-# Eventeer: Connecting Volunteers with Impactful Causes
+# Eventeer: Student Event Platform
 
 ## 📌 Table of Contents
 - [Background](#background)
