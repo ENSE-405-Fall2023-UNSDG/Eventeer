@@ -32,7 +32,7 @@ There's a growing demand for a centralized platform where students can find even
 <p align="center">
   <img src="https://github.com/M-Alharbi/Eventeer/blob/main/Images/SDGs.gif" width="450" alt="SDGs GIF">
 </p>
-Eventeer's new direction contributes to several SDGs:
+Eventeer contributes to two SDGs:
 
 - **SDG 4: Quality Education:** Eventeer enhances the quality of education by facilitating student events that promote learning, skill development, and knowledge exchange outside traditional classroom settings.
   
@@ -46,11 +46,14 @@ Eventeer's new direction contributes to several SDGs:
 ## 🎥 Project Vlog
 [Click here to watch the project vlog video](https://youtu.be/o6N7KFMDbKE)
 
+
 ## 🎨 Prototype
+
 ### Low Fidelity
-[Low Fidelity Mockup](https://github.com/M-Alharbi/Eventeer/blob/main/Prototype/LowFidelity.pdf)
+[Low Fidelity](https://github.com/M-Alharbi/Eventeer/blob/main/Prototype/LowFidelity.pdf)
 ### High Fidelity
-[High Fidelity Mockup](https://github.com/M-Alharbi/Eventeer/blob/main/Prototype/HighFidelity.pdf)
+[High Fidelity](https://github.com/M-Alharbi/Eventeer/blob/main/Prototype/HighFidelity.pdf)
+
 
 ## 📊 Kanban Board
 [Kanban Board](https://github.com/M-Alharbi/Eventeer/blob/main/Images/Kanban.png)
