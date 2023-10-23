@@ -14,6 +14,12 @@
 
 - [Minimum Viable Products (MVPs)](#-minimum-viable-products-mvps)
 
+- [Project Vlog](#-project-vlog)
+  
+- [Prototype](#-prototype)
+  
+- [Kanban Board](#-kanban-board)
+
 - [License](#-license)
 
 ## 🌐 Background
@@ -37,6 +43,17 @@ Eventeer's new direction contributes to several SDGs:
 - **Event Listing:** Institutions can list their events, providing all necessary details.
 - **Event Badges:** A feature where students earn badges for their participation, adding a gamified element and recognition.
 
+## 🎥 Project Vlog
+[Click here to watch the project vlog video](https://youtu.be/o6N7KFMDbKE)
+
+## 🎨 Prototype
+### Low Fidelity
+[Low Fidelity Mockup](https://github.com/M-Alharbi/Eventeer/blob/main/Prototype/LowFidelity.pdf)
+### High Fidelity
+[High Fidelity Mockup](https://github.com/M-Alharbi/Eventeer/blob/main/Prototype/HighFidelity.pdf)
+
+## 📊 Kanban Board
+[Kanban Board](https://github.com/M-Alharbi/Eventeer/blob/main/Images/Kanban.png)
 
 ## 📜 License
 [MIT](#)
