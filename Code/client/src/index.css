@@ -1,0 +1,1029 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="text"],input[type="password"],input[type="email"],textarea {
+    @apply w-full border my-2 py-2 px-3 rounded-xl;
+}
+textarea{
+    height: 120px;
+}
+.loginbutton{
+    @apply bg-gray-300 w-full rounded-full text-black p-2;
+    background-color: aqua;
+}
+.registerbutton{
+    @apply bg-gray-300 w-full rounded-full text-white p-2;
+    background-color: rgb(140, 0, 255);
+    
+}
+.formbutton{
+    @apply w-full rounded-full text-black p-2 my-4;
+    background-color: red;
+}
+.formbutton:hover{
+    background-color: orange;
+    color: white
+}
+
+.search{
+    @apply w-min;
+}
+.main_header {
+    background-color: #f4f4f4;
+    display: flex;
+    padding: 4px; 
+    border-radius: 2px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 99;
+    border-radius: 20px;
+    height: 60px; /* 10% of the viewport's height */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), /* Horizontal offset, vertical offset, blur radius, spread radius, and color */
+                0 3px 10px 0 rgba(0, 0, 0, 0.18); /* Adjust as per your design preference */
+}
+
+.primary {
+    background-color: #f4f4f4;
+    
+}
+.primary:hover{
+    
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+                0 3px 10px 0 rgba(0, 0, 0, 0.18);
+}
+
+.userlogo_class {
+    background-color: red;
+    display: flex;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center; /* Align children in the center */
+    width: 20%;
+}
+
+/* This ensures that both image and username are inline and vertically centered */
+.userlogo_class a {
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* Optional: removes underline from links */
+}
+
+/* If you have specific padding or margins you want to apply, you can do it here */
+.userlogo_class img {
+    margin-right: 10px; /* Space between image and username */
+}
+
+/* No left margin is required on the username unless you want additional spacing */
+.username {
+    display: inline; /* Inline display for the username */
+}
+
+
+
+
+/* profile page */
+
+
+/* Add this to your CSS file */
+.profile-container {
+    display: flex;
+    
+    margin-top: 20px;
+}
+
+.sidebar {
+    width: 250px;
+    flex-shrink: 0;
+    height: 100vh; /* Full height */
+    background: #f4f4f4;
+    padding: 1rem;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    overflow-y: auto;
+}
+
+.main-content {
+    flex-grow: 1; /* Takes up remaining space */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    padding: 1rem;
+    
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .profile-container {
+        flex-direction: column;
+    }
+
+    .main-content {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+/* Style your links appropriately */
+.sidebar-link {
+    display: flex;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    gap: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.sidebar-link:hover {
+    background-color: #ddd; /* Highlight on hover */
+    border-radius: 10px;
+}
+
+.sidebar-contents2{
+    color: #333;
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    gap: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background-color: rgb(113, 113, 113);
+    color: white;
+}
+
+.user-info{
+   
+    text-align: center;
+}
+.user-info img{
+   margin-left: 35%;
+   
+}
+
+
+.add-new-event{
+    display: inline-flex;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.add-new-event:hover{
+    background-color: orange; /* Highlight on hover */
+    border-radius: 10px;
+    color: black;
+}
+
+.new-event-from h2{
+    font-size: large;
+    margin-top: 4px;
+}
+
+
+.add-new-photo{
+    display: flex;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    @apply  border;
+    text-decoration: none;
+    background-color: transparent;
+    width: 100%;
+    max-width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.add-new-photo:hover{
+    background-color: orange; /* Highlight on hover */
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1
+}
+
+
+.add-new-badge{
+    display: flex;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    @apply  border;
+    text-decoration: none;
+    background-color: transparent;
+    width: 100%;
+    max-width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.add-new-badge:hover{
+    background-color: orange; /* Highlight on hover */
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    
+}
+
+.form-inputs{
+    @apply  border my-2 py-2 px-3 rounded-xl;
+}
+.form-inputs input{
+    @apply  border my-2 py-2 px-3 rounded-xl;
+    width: fit-content;
+}
+
+ /* Badge selection */
+
+ .badge-selection {
+    display: flex;
+    flex-wrap: wrap; /* Allows badges to wrap to the next line */
+    gap: 10px; /* Adjust the space between each badge */
+    margin-top: 10px;
+}
+
+.badge-label {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the space between checkbox, image, and title */
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    flex-basis: calc(33.33% - 10px); /* Adjust this value for different sizes */
+    height: 100px;
+    
+}
+
+.badge-checkbox {
+    flex-shrink: 0; /* Prevents the checkbox from resizing */
+}
+
+.badge-image {
+    width: 40px; /* Adjust the size of the badge image */
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.badge-title {
+    flex-grow: 1; /* Allows the title to take up remaining space */
+}
+
+
+/* main page */
+
+.main-container {
+    margin-top: 24px;
+    padding: 16px;
+}
+
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+}
+
+.event-card {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 450px;
+    
+}
+
+.event-card:hover{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+                0 3px 10px 0 rgba(0, 0, 0, 0.18);
+}
+
+.event-image-container {
+    height: 250px; /* Fixed height for images */
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.event-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.event-image-container:hover .event-image {
+    transform: scale(1.1); /* Zoom effect */
+}
+
+.badge-icon {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    width: 50px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 10; /* Ensure it's above the image */
+    
+}
+
+.event-content {
+    padding: 16px;
+    flex-grow: 1;
+}
+
+.event-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+    color: #333333;
+}
+
+.event-description {
+    color: #666666;
+    font-size: 0.875rem;
+    margin-bottom: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Limit to a specific number of lines */
+    -webkit-box-orient: vertical;
+}
+
+.event-details {
+    padding: 16px;
+    border-top: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    color: #666666;
+}
+
+
+.icon {
+    width: 2rem; /* Adjust the size of the icon */
+    height: 2rem;
+    vertical-align: middle; /* Align the icon with the text */
+    margin-right: 4px; /* Add some space between icon and text */
+}
+
+.event-details p {
+    display: flex;
+    align-items: center; /* Align items in a flex container */
+    text-align: center;
+}
+
+.event-info-date{
+    display: flex;
+    align-items: center; /* Align items in a flex container */
+    border: 1px solid #e0e0e0; /* Border around each info */
+    border-radius: 10px;
+    padding: 8px;
+    position: relative; /* For positioning the line */
+    width: 100%;
+    justify-content: center;
+    
+}
+
+
+.event-info {
+    display: flex;
+    align-items: center; /* Align items in a flex container */
+    border: 1px solid #e0e0e0; /* Border around each info */
+    border-radius: 10px;
+    padding: 8px;
+    position: relative; /* For positioning the line */
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/*  event detail plage*/
+
+
+.event-detail-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f4f4f461;;
+    margin-top: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    width: 70%;
+}
+
+.event-header-detail {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.event-title-detail {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.event-time-detail{
+    font-size: 1.2em;
+    color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust as needed */
+    
+}
+
+
+.event-body-detail {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.event-photo-detail img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.event-description-detail {
+    margin-top: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.event-info-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.event-info-detail p {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+/* Additional styles for badges, etc. */
+.event-image-gallery-detail {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust the gap between images */
+    margin-top: 20px;
+}
+
+.event-image-container-detail {
+    flex-basis: calc(50% - 10px); /* Adjust this value for different layouts */
+    overflow: hidden;
+}
+
+.event-image-detail {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.event-badge-container-detail {
+    /* Adjust the size of the badge container if needed */
+    width: 100px; /* Example width */
+    height: 100px; /* Example height */
+}
+
+.event-badge-detail {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+.event-image-slider-2 {
+    position: relative;
+    width: 100%; /* Adjust as needed */
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto;
+    overflow: hidden; /* To ensure images don't exceed the container size */
+}
+
+.event-image-2 {
+    width: 100%;
+    height: 400px; /* Fixed height for all images */
+    object-fit: cover; /* This will ensure images cover the area nicely */
+    display: block;
+}
+
+.slider-button-2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(249, 249, 249, 0.568); /* Semi-transparent background */
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 24px;
+    z-index: 10;
+    color: black;
+    height: 100%;
+}
+
+.prev-button-2:hover {
+    color: red;
+}
+
+.next-button-2 {
+    right: 0.1px;
+    
+}
+.next-button-2:hover{
+    color: red;
+}
+
+.icon2 {
+    width: 30px; /* Adjust the size of the icon */
+    height: 30px;
+    
+}
+
+
+.event-time-wrapper2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-time-detail2 {
+    display: flex;
+    align-items: center;
+    margin: 0 10px; /* Add some space between start and end times */
+}
+
+.event-time-detail2 svg {
+    margin-right: 5px; /* Space between icon and text */
+    
+}
+.join-event-button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    border-radius: 9999px; /* Full rounded */
+    padding: 8px; /* Equivalent to 2rem */
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: white; /* High contrast text color */
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.join-event-button:hover {
+    background-color: #0150a4; /* Darker shade of blue */
+}
+
+
+
+
+/* up coming event page */
+
+
+
+
+/* General Page Styles */
+.upcoming-events-page {
+    font-family: 'Arial', sans-serif;
+    margin-left: 0;
+    padding: 20px;
+    
+}
+
+.upcoming-events-title {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.upcoming-events-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    min-height: 100vh; /* Full height of the viewport */
+    padding: 20px;
+    
+}
+
+/* Card Styles */
+.upcoming-event-card {
+    display: flex;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 80%;
+    height: 250px; /* Fixed height for all cards */
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #333;
+    
+    
+}
+
+.upcoming-event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.upcoming-event-card-image {
+    flex: 0 0 40%;
+    object-fit: cover;
+    min-width: 150px; /* Adjust as needed */
+    height: auto;
+}
+
+.upcoming-event-card-info {
+    flex: 1; /* Take up the remaining space */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.upcoming-event-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.upcoming-event-description {
+    font-size: 0.9em;
+    line-height: 1.6;
+    color: #666;
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Add ellipsis to text overflow */
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Show only 3 lines */
+    -webkit-box-orient: vertical;
+    
+}
+
+.no-upcoming-events {
+    text-align: center;
+    font-size: 1.2em;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .upcoming-event-card {
+        flex-direction: column; /* Stack image and text on smaller screens */
+        width: 90%; /* Adjust for smaller screens */
+    }
+
+    .upcoming-event-card-image {
+        width: 100%; /* Full width on smaller screens */
+    }
+
+    .upcoming-event-card-info {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
+
+.upcoming-event-date {
+    font-size: 0.9em; /* Adjust the font size as needed */
+    color: #086fe5; /* Choose a color that fits your design */
+    font-weight: bold; /* Make it bold to stand out */
+    margin-top: 30px; /* Add some space above the date */
+    padding: 5px 10px; /* Optional: Add padding for a "tag" like appearance */
+    background-color: #f9f9f9; /* Optional: Background color for the date */
+    border-radius: 5px; /* Optional: Rounded corners for the date background */
+    display: inline-block; /* Makes the background and padding effective */
+
+}
+
+.upcoming-event-card-content {
+    display: flex;
+    width: 100%;
+}
+
+
+
+/* modal badge detail */
+
+
+
+.modal-content {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: auto;
+    max-width: 500px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    
+}
+
+.modal-badge-image {
+    width: 60px; /* Adjust size as needed */
+    height: 60px; /* Adjust size as needed */
+    object-fit: cover;
+    border-radius: 20%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 10px;
+}
+
+.modal-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    
+}
+
+.modal-description {
+    font-size: 1em;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.close-button:hover{
+    color: red;
+    font-size: large;
+    
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's above other elements */
+}
+
+
+/* Badge Earned Page */
+
+
+.badge-earned-page {
+    padding: 20px;
+}
+
+.badge-earned-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: xx-large;
+}
+
+.badge-earned-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+}
+
+.badge-earned-card {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    background-color: #f0f0f0;
+    
+}
+
+.badge-earned-card:hover {
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.badge-earned-image {
+    width: 70%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.badge-earned-info {
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+}
+
+.badge-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.badge-description {
+    font-size: 0.9em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Limit to a specific number of lines */
+    -webkit-box-orient: vertical;
+    
+}
+
+
+
+/* Badge earned modal */
+
+.badge-modal-content {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+    width: auto;
+    max-width: 600px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.badge-modal-image {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    object-fit: cover;
+    border-radius: 30%;
+    margin-bottom: 20px;
+}
+
+.badge-modal-title {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.badge-modal-description {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.badge-close-button {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+.badge-close-button:hover {
+    color: red;
+    font-size: x-large; 
+}
+
+.badge-modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's above other elements */
+}
+
+
+
+
+
+/*profile welcome message*/
+
+.welcome-message {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f2f2f2; /* Light grey background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.welcome-message h2 {
+    font-size: 2.5em; /* Large font size for the welcome text */
+    color: #333; /* Dark text color for contrast */
+    margin-bottom: 10px;
+}
+
+.welcome-message p {
+    font-size: 1.2em; /* Slightly larger paragraph text */
+    color: #666; /* Medium grey for the secondary text */
+}
+
+
+
+
+/* Header Container */
+.header-container {
+    background: #f4f4f4;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+/* Logo Section */
+.logo-section {
+    flex-shrink: 0;
+}
+
+.logo-img {
+    height: 5rem; /* Adjust as needed */
+}
+
+/* Search Bar */
+.search-bar {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20rem; /* Adjust as needed */
+    border-radius: 0.5rem; 
+}
+
+/* User Profile and Logout Button */
+.user-profile {
+    position: relative;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    
+}
+.profile-link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.user-profile:hover {
+    background-color: #dfe0e2; /* Light gray */
+}
+
+.user-profile img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.user-name {
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+.logout-button {
+    position: absolute;
+    top: 100%;
+    right: 0.5rem;
+    display: none;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+}
+
+.user-profile:hover .logout-button {
+    display: block;
+    margin-top: 0;
+}
