@@ -15,6 +15,8 @@
 - [Minimum Viable Products (MVPs)](#-minimum-viable-products-mvps)
 
 - [Project Vlog](#-project-vlog)
+
+- [Commercial Video](#-commercial-video)
   
 - [Prototype](#-prototype)
   
@@ -48,6 +50,9 @@ Eventeer contributes to two SDGs:
 ## 🎥 Project Vlog
 [Click here to watch the project vlog video](https://youtu.be/o6N7KFMDbKE)
 
+## 📺 Commercial Video
+[Watch the Video](https://youtu.be/FEYS-prHOMQ)
+
 
 ## 🎨 Prototype
 
@@ -60,7 +65,7 @@ Eventeer contributes to two SDGs:
 ## 📊 Kanban Board
 [Kanban Board](https://github.com/M-Alharbi/Eventeer/blob/main/Images/Kanban.png)
 
-##  Run Code
+## 🖥️ Run Code
 
 ### Run app on your localhost (Front End):
 ```Change to required directory```
