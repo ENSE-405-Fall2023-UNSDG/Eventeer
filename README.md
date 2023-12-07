@@ -20,6 +20,8 @@
   
 - [Kanban Board](#-kanban-board)
 
+- [Code](#-run-code)
+
 - [License](#-license)
 
 ## 🌐 Background
@@ -57,6 +59,27 @@ Eventeer contributes to two SDGs:
 
 ## 📊 Kanban Board
 [Kanban Board](https://github.com/M-Alharbi/Eventeer/blob/main/Images/Kanban.png)
+
+## Run Code
+
+### Run app on your localhost (Front End):
+```Change to required directory```
+
+        code/client
+
+
+```Run on your localhost```
+
+        yarn dev
+
+### Run app on your localhost (Back End):
+```Change to required directory```
+
+        code/api
+
+```Run on your localhost```
+
+        nodemon index.js   
 
 ## 📜 License
 [MIT](#)
