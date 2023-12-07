@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/M-Alharbi/Eventeer/blob/main/Images/Eventeer%20Logo.png" alt="Eventeer Logo" width="200"/> <!-- Adjust the width value as needed -->
+  <img src="https://github.com/M-Alharbi/Eventeer/blob/main/Images/Eventeer%20Logo.png" alt="Eventeer Logo" width="200"/> 
 </p>
 
 
