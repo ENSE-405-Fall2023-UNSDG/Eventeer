@@ -20,7 +20,7 @@
   
 - [Kanban Board](#-kanban-board)
 
-- [Code](#-run-code)
+- [Code](#run-code)
 
 - [License](#-license)
 
@@ -60,7 +60,7 @@ Eventeer contributes to two SDGs:
 ## 📊 Kanban Board
 [Kanban Board](https://github.com/M-Alharbi/Eventeer/blob/main/Images/Kanban.png)
 
-## Run Code
+##  Run Code
 
 ### Run app on your localhost (Front End):
 ```Change to required directory```
